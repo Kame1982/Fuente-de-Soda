@@ -1,0 +1,22 @@
+{
+  "name": "fuente-de-soda",
+  "version": "1.0.0",
+  "description": "fuente de soda clases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kame1982/Fuente-de-Soda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kame1982/Fuente-de-Soda/issues"
+  },
+  "homepage": "https://github.com/Kame1982/Fuente-de-Soda#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
