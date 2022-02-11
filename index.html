@@ -3,14 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- se modifica para codigo hacer responsible entre pantallas-->
     <title>Fuente de Soda - Suiza</title>
     <!-- <link href="estilo.css" rel="stylesheet" />-->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />  
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
 </head>
 <body>
-     <h1> probando la funcion live por segunda vez</h1><h2>revision</h2>
+  
+    <div class="container"> <!-- existe tambien la opcion de container-fluid para pantallas wide, 
+        requiere imagenes en alta calidad para ajustarse a pnatallas grandes-->
+        <header>
+        <div class="row"> <!-- revisan row-->
+            <div class="col-12 bg-warning">col-12</div> <!-- bg-primary etc define color, codificacion en getbootstrap-->
+            
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                      <img src="img/logo.jpg" alt="Logo Fuente Suiza" />
+                    </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Carta
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Sandwiches</a></li>
+                          <li><a class="dropdown-item" href="#">Bebestibles</a></li>                          
+                          <li><a class="dropdown-item" href="#">Postres</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Historia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Sucursales</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+            <div class="row"> <!-- revisan row-->
+            <div class="col-3 bg-primary">col-3</div> <!-- bg-primary etc define color, codificacion en getbootstrap-->
+            <div class="col-6 bg-secondary">col-6</div>
+            <div class="col-3 bg-success">col-3</div>
+        </div>
+        <div class="row"> <!-- revisan row-->
+            <div class="col-4 bg-secondary">col-4</div> <!-- bg-primary etc define color, codificacion en getbootstrap-->
+            <div class="col-4 bg-primary">col-4</div>
+            <div class="col-4 bg-success">col-4</div>
+        </div>    
+    </div> 
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>  
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
