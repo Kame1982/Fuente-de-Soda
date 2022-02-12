@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- se modifica para codigo hacer responsible entre pantallas-->
     <title>Fuente de Soda - Suiza</title>
-    <!-- <link href="estilo.css" rel="stylesheet" />-->
+    <link href="estilo.css" rel="stylesheet"/>
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />  
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
 </head>
@@ -14,13 +14,10 @@
     <div class="container"> <!-- existe tambien la opcion de container-fluid para pantallas wide, 
         requiere imagenes en alta calidad para ajustarse a pnatallas grandes-->
         <header>
-        <div class="row"> <!-- revisan row-->
-            <div class="col-12 bg-warning">col-12</div> <!-- bg-primary etc define color, codificacion en getbootstrap-->
-            
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
-                      <img src="img/logo.jpg" alt="Logo Fuente Suiza" />
+                      <img src="img/logo.jpg" alt="Pollos Hermanos" />
                     </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,10 +25,10 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,14 +41,16 @@
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Historia</a>
+                        <a class="nav-link" href="historia.html">Historia</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Sucursales</a>
+                        <a class="nav-link" href="sucursales.html">Sucursales</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
+                        <a class="nav-link" href="merchandising.html">Merchandising</a>
                       </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a> </li>
                     </ul>
                     <form class="d-flex">
                       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -67,13 +66,13 @@
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="img/slides/close-up-fried-chicken-wings-with-fries.jpg" class="d-block w-100" alt="...">
+                        <img src="img/slides/close-up-fried-chicken-wings-with-fries.jpg" class="d-block w-100" alt="Pollo con Papas Fritas">
                       </div>
                       <div class="carousel-item">
-                        <img src="img/slides/pollo1.jpg" class="d-block w-100" alt="...">
+                        <img src="img/slides/pollo1.jpg" class="d-block w-100" alt="Nuegget de Pollo">
                       </div>
                       <div class="carousel-item">
-                        <img src="img/slides/alitas.jpg" class="d-block w-100" alt="...">
+                        <img src="img/slides/alitas.jpg" class="d-block w-100" alt="Alitas">
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -86,17 +85,52 @@
                     </button>
                   </div>
             </section>      
-        </header>
-            <div class="row"> <!-- revisan row-->
-            <div class="col-3 bg-primary">col-3</div> <!-- bg-primary etc define color, codificacion en getbootstrap-->
-            <div class="col-6 bg-secondary">col-6</div>
-            <div class="col-3 bg-success">col-3</div>
-        </div>
-        <div class="row"> <!-- revisan row-->
-            <div class="col-4 bg-secondary">col-4</div> <!-- bg-primary etc define color, codificacion en getbootstrap-->
-            <div class="col-4 bg-primary">col-4</div>
-            <div class="col-4 bg-success">col-4</div>
-        </div>    
+            <section id="testimonios">
+              <div class="row">
+                  <div class="col-xs-12 col-lg-4 text-center">
+                    <img class="testimonio" src="img/melissa.jpg" alt="Juan Perez" />
+                    <h2>Juan Pérez</h2>
+                    <p>
+                      Lorem ipsum dolor asit atme consequeum.
+                    </p>
+                    <span class="puntuacion">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </span>
+                  </div><!-- END column1 -->
+                  <div class="col-xs-12 col-lg-4 text-center">
+                    <img class="testimonio" src="img/antonny.jpg" alt="Sofía Pérez" />
+                    <h2>Sofía Pérez</h2>
+                    <p>
+                      Lorem ipsum dolor asit atme consequeum.
+                    </p>
+                    <span class="puntuacion">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </span>
+                  </div><!-- END column2 -->
+                  <div class="col-xs-4 col-lg-4 text-center">
+                    <img class="testimonio" src="img/robert.jpg" alt="Fran Soto" />
+                    <h2>Fran Soto</h2>
+                    <p>
+                      Lorem ipsum dolor asit atme consequeum.
+                    </p>
+                    <span class="puntuacion">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </span>
+                  </div><!-- END column3 -->
+              </div>
+          </section> 
     </div> 
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>  
