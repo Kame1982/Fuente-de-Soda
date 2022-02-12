@@ -1,11 +1,7 @@
-img.carrusel{
-    height: 100px;
-    width:100%;
-}
-img.testimonios{
+img.testimonio {
     height: 150px;
-    border: 10px;
 }
+
 section#testimonios {
     margin-top: 30px;
     margin-bottom: 30px;

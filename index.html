@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- se modifica para codigo hacer responsible entre pantallas-->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
     <title>Fuente de Soda - Suiza</title>
-    <link href="estilo.css" rel="stylesheet"/>
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />  
+    <link href="estilo.css" rel="stylesheet" />
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />    
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
 </head>
 <body>
-  
-    <div class="container"> <!-- existe tambien la opcion de container-fluid para pantallas wide, 
-        requiere imagenes en alta calidad para ajustarse a pnatallas grandes-->
-        <header>
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <div class="container">
+
+        <header>            
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
                       <img src="img/logo.jpg" alt="Pollos Hermanos" />
@@ -25,10 +27,10 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="#">Nosotros</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,16 +43,14 @@
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="historia.html">Historia</a>
+                        <a class="nav-link" href="#">Historia</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="sucursales.html">Sucursales</a>
+                        <a class="nav-link" href="#">Sucursales</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="merchandising.html">Merchandising</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a> </li>
                     </ul>
                     <form class="d-flex">
                       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -59,81 +59,134 @@
                   </div>
                 </div>
               </nav>
+        </header>
 
-            </header>
-
-            <section id="carrusel">
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="img/slides/close-up-fried-chicken-wings-with-fries.jpg" class="d-block w-100" alt="Pollo con Papas Fritas">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/slides/pollo1.jpg" class="d-block w-100" alt="Nuegget de Pollo">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/slides/alitas.jpg" class="d-block w-100" alt="Alitas">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
+        <section id="carrusel">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/slides/close-up-fried-chicken-wings-with-fries.jpg" class="d-block w-100" alt="...">
                   </div>
-            </section>      
-            <section id="testimonios">
-              <div class="row">
-                  <div class="col-xs-12 col-lg-4 text-center">
-                    <img class="testimonio" src="img/melissa.jpg" alt="Juan Perez" />
-                    <h2>Juan Pérez</h2>
-                    <p>
-                      Lorem ipsum dolor asit atme consequeum.
-                    </p>
-                    <span class="puntuacion">
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star-o" aria-hidden="true"></i>
-                    </span>
-                  </div><!-- END column1 -->
-                  <div class="col-xs-12 col-lg-4 text-center">
-                    <img class="testimonio" src="img/antonny.jpg" alt="Sofía Pérez" />
-                    <h2>Sofía Pérez</h2>
-                    <p>
-                      Lorem ipsum dolor asit atme consequeum.
-                    </p>
-                    <span class="puntuacion">
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star-o" aria-hidden="true"></i>
-                      <i class="fa fa-star-o" aria-hidden="true"></i>
-                    </span>
-                  </div><!-- END column2 -->
-                  <div class="col-xs-4 col-lg-4 text-center">
-                    <img class="testimonio" src="img/robert.jpg" alt="Fran Soto" />
-                    <h2>Fran Soto</h2>
-                    <p>
-                      Lorem ipsum dolor asit atme consequeum.
-                    </p>
-                    <span class="puntuacion">
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                    </span>
-                  </div><!-- END column3 -->
+                  <div class="carousel-item">
+                    <img src="img/slides/alitas.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/slides/pollo1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
-          </section> 
-    </div> 
+        </section>
+        
+        <section id="testimonios">
+            <div class="row">
+                <div class="col-xs-12 col-lg-4 text-center">
+                  <img class="testimonio" src="img/gente_comiendo1.webp" alt="Juan Perez" />
+                  <h2>Juan Pérez</h2>
+                  <p>
+                    Lorem ipsum dolor asit atme consequeum.
+                  </p>
+                  <span class="puntuacion">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                  </span>
+                </div><!-- END column1 -->
+                <div class="col-xs-12 col-lg-4 text-center">
+                  <img class="testimonio" src="img/gente_comiendo2.webp" alt="Sofía Pérez" />
+                  <h2>Sofía Pérez</h2>
+                  <p>
+                    Lorem ipsum dolor asit atme consequeum.
+                  </p>
+                  <span class="puntuacion">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                  </span>
+                </div><!-- END column2 -->
+                <div class="col-xs-12 col-lg-4 text-center">
+                  <img class="testimonio" src="img/gente_comiendo3.webp" alt="María Soto" />
+                  <h2>María Soto</h2>
+                  <p>
+                    Lorem ipsum dolor asit atme consequeum.
+                  </p>
+                  <span class="puntuacion">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </span>
+                </div><!-- END column3 -->
+            </div>
+        </section> 
+        
+        <footer class="bg-dark pt-3 pb-3">
+            <div class="row">
+                <div class="col-4">
+                  <div class="p-2 ps-5">
+                    <h3 class="text-white">Fuente Suiza</h3>
+                    <p class="text-white">
+                      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+                    </p>
+                  </div>                  
+                </div>
+                <div class="col-4">
+                  <div class="p-2 text-center">
+                    <h3 class="text-white">Menú</h3>
+                    <ul>
+                      <li>
+                        <a href="#">Inicio</a>
+                      </li>
+                      <li>
+                        <a href="#">Nosotros</a>
+                      </li>
+                      <li>
+                        <a href="#">Carta</a>
+                      </li>
+                      <li>
+                        <a href="#">Historia</a>
+                      </li>
+                      <li>
+                        <a href="#">Sucursales</a>
+                      </li>
+                      <li>
+                        <a href="contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>                  
+                </div>
+                <div class="col-4">
+                  <div class="p-2">
+                    <h3 class="text-white">Sucursales</h3>
+                    <p class="text-white">
+                      Los Alerces 123, Ñuñoa, Stgo<br />
+                      Tel: 56 2 2244 6699<br />
+                    </p>
+                    <hr class="text-white" />
+                    <p class="text-white">
+                      Los Ñandúes, Valpo<br />
+                      Tel: 56 9 8899 6699<br />         
+                    </p>  
+                  </div>                                           
+                </div>
+            </div>
+        </footer>        
 
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>  
+    </div>
+   
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
 </body>
 </html>
